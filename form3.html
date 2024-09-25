@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact us</title>
+</head>
+<body>
+    <form>
+    <fieldset>
+        <h1>Enter Your Details</h1>
+        <label for="fname">Name</label><br><br>
+        <input type="text" id="fname" required pattern=[a-zA-Z]{3,10} placeholder="Name"><br><br>
+        <label for="mail">Company Email</label><br><br>
+        <input type="email" id="mail" required  pattern="^[a-zA-Z0-9_.]{1,}@[a-zA-Z]{1,}\.[a-zA-Z]{2,3}$" placeholder="you@gmail.com"><br><br>
+        <label for="phone">Phone Number</label><br><br>
+        <input type="tel"  id="phone" required pattern=[6-9][0-9]{9} placeholder="+91"><br><br>
+        <label for="designation">Message</label><br><br>
+        <textarea id="comments" name="comments" rows="4" cols="50"></textarea>
+        </textarea><br><br>
+        <input type="checkbox" name="" id="">
+        <label for="">you agree to our friendly <a href="https://thetapacademy.com/privacy-policy">privacy policy</a></label><br><br>
+        <center>
+         <input type="submit" value="Send message">
+     </center>
+     </fieldset>
+ </form>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FSWD JAVA</title>
+</head>
+<body>
+    <form>
+    
+        <fieldset>
+            <h1>Upskill for your Dream Job</h1>
+           <label for="fname">NAME</label><br><br>
+           <input type="text" id="fname" required pattern=[a-zA-Z]{3,10} placeholder="Name"><br><br>
+           <label for="mail">EMAIL</label><br><br>
+           <input type="email" id="mail" required  pattern="^[a-zA-Z0-9_.]{1,}@[a-zA-Z]{1,}\.[a-zA-Z]{2,3}$" placeholder="you@company.com"><br><br>
+           <label for="phone">Phone Number</label><br><br>
+           <input type="tel"  id="phone" required pattern=[6-9][0-9]{9} placeholder="+91"><br><br>
+           <input type="radio" id="online" name="dept">
+                <label for="online">Online</label>
+                <input type="radio" id="offline" name="dept">
+                <label for="offline">Offline</label><br><br>
+            <input type="submit">
+        </fieldset>
+    </form>
+</body>
+</html>

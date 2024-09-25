@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hire from Us</title>
+</head>
+<body>
+    <form>
+    
+        <fieldset>
+           
+           <label for="fname">Name</label><br><br>
+           <input type="text" id="fname" required pattern=[a-zA-Z]{3,10} placeholder="Name"><br><br>
+           <label for="mail">Company Email</label><br><br>
+           <input type="email" id="mail" required  pattern="^[a-zA-Z0-9_.]{1,}@[a-zA-Z]{1,}\.[a-zA-Z]{2,3}$" placeholder="you@company.com"><br><br>
+           <label for="phone">Phone Number</label><br><br>
+           <input type="tel"  id="phone" required pattern=[6-9][0-9]{9} placeholder="+91"><br><br>
+           <label for="designation">Designation</label>
+           <input type="text" id="designation" required placeholder="Designation">
+           <label for="hires">No.of hires</label>
+           <input type="text" id="hires" required placeholder="Enter digit here"><br><br>
+           <center>
+            <input type="submit">
+        </center>
+        </fieldset>
+    </form>
+</body>
+</html>
